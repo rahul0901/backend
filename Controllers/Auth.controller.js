@@ -1,9 +1,7 @@
-const Login = (req, res) => {
-    res.send('Hi Login from Auth Controller')
+export const Login = (req, res) => {
+    res.send("Hi From Login")
 }
 
-const Register = (req, res) => {
-    res.send('Hi Register from Auth Controller')
+export const Register = (req, res) => {
+    res.send("Hi From Register")
 }
-
-export default Login;
